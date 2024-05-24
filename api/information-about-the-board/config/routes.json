@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/information-about-the-boards",
+      "handler": "information-about-the-board.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-about-the-boards/count",
+      "handler": "information-about-the-board.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-about-the-boards/:id",
+      "handler": "information-about-the-board.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/information-about-the-boards",
+      "handler": "information-about-the-board.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/information-about-the-boards/:id",
+      "handler": "information-about-the-board.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/information-about-the-boards/:id",
+      "handler": "information-about-the-board.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

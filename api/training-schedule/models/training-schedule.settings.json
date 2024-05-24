@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_schedules",
+  "info": {
+    "name": "TrainingSchedule_Beginner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trainingGroup": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trainingPlace": {
+      "type": "string"
+    },
+    "trainingDays": {
+      "type": "string"
+    },
+    "trainingTimes": {
+      "type": "string"
+    },
+    "trainer": {
+      "type": "string"
+    }
+  }
+}

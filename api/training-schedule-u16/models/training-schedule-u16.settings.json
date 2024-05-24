@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_schedule_u16s",
+  "info": {
+    "name": "TrainingSchedule_U16"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trainingGroup": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trainingPlace": {
+      "type": "string"
+    },
+    "trainingDays": {
+      "type": "string"
+    },
+    "trainingTimes": {
+      "type": "string"
+    },
+    "trainer": {
+      "type": "string"
+    }
+  }
+}

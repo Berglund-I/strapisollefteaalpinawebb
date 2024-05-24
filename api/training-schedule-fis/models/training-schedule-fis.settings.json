@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_schedule_fis",
+  "info": {
+    "name": "TrainingSchedule_FIS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trainingGroup": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trainingPlace": {
+      "type": "string"
+    },
+    "trainingDays": {
+      "type": "string"
+    },
+    "trainingTimes": {
+      "type": "string"
+    },
+    "trainer": {
+      "type": "string"
+    }
+  }
+}

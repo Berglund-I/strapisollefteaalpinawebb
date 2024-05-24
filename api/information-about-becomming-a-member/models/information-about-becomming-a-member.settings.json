@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_about_becomming_a_members",
+  "info": {
+    "name": "InformationAboutBecommingAMember"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InformationText": {
+      "type": "text"
+    }
+  }
+}

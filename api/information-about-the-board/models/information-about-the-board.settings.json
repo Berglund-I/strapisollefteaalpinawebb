@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_about_the_boards",
+  "info": {
+    "name": "InformationAboutTheBoard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

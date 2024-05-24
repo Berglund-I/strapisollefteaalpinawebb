@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/training-schedules",
+      "handler": "training-schedule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-schedules/count",
+      "handler": "training-schedule.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-schedules/:id",
+      "handler": "training-schedule.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/training-schedules",
+      "handler": "training-schedule.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/training-schedules/:id",
+      "handler": "training-schedule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/training-schedules/:id",
+      "handler": "training-schedule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

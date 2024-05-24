@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/training-schedule-u-14-s",
+      "handler": "training-schedule-u14.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-schedule-u-14-s/count",
+      "handler": "training-schedule-u14.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/training-schedule-u-14-s/:id",
+      "handler": "training-schedule-u14.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/training-schedule-u-14-s",
+      "handler": "training-schedule-u14.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/training-schedule-u-14-s/:id",
+      "handler": "training-schedule-u14.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/training-schedule-u-14-s/:id",
+      "handler": "training-schedule-u14.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
