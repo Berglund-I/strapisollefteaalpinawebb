@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_about_the_saks",
+  "info": {
+    "name": "InformationAboutTheSAK",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/information-about-the-saks",
+      "handler": "information-about-the-sak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-about-the-saks/count",
+      "handler": "information-about-the-sak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-about-the-saks/:id",
+      "handler": "information-about-the-sak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/information-about-the-saks",
+      "handler": "information-about-the-sak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/information-about-the-saks/:id",
+      "handler": "information-about-the-sak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/information-about-the-saks/:id",
+      "handler": "information-about-the-sak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
