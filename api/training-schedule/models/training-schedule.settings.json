@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "training_schedules",
   "info": {
-    "name": "TrainingSchedule_Beginner",
-    "description": ""
+    "name": "TrainingSchedule"
   },
   "options": {
     "increments": true,
