@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/membership-prices",
+      "handler": "membership-price.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/membership-prices/count",
+      "handler": "membership-price.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/membership-prices/:id",
+      "handler": "membership-price.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/membership-prices",
+      "handler": "membership-price.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/membership-prices/:id",
+      "handler": "membership-price.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/membership-prices/:id",
+      "handler": "membership-price.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

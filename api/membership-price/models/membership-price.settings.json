@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membership_prices",
+  "info": {
+    "name": "MembershipPrice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "member": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
